@@ -1,420 +1,273 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap demo</title>
-    <!-- Bootstrap css -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  </head>
-  <body style="font-family: Poppins, sans-serif;">
-    <div style="background-color: #f4f5f7;">
-      <div style="background-color: white; border-radius: 70 0 0 0; height: 42rem;">
-        <nav class="navbar navbar-expand-md mx-5">
-          <div class="container-fluid">
-            <a class="navbar-brand px-5 font" href="#">My Logo</a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNavAltMarkup"
-              aria-controls="navbarNavAltMarkup"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          </div>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav px-5">
-              <a class="nav-link active" aria-current="page" href="#"
-                >Portfolio</a
-              >
-              <a class="nav-link" href="#">About</a>
-              <a class="nav-link" href="#">Contact</a>
-            </div>
-          </div>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar-example2" data-bs-offset="50">
+    <div class="container-fluid .bg-light">
+        <nav id="navbar-example2" class="navbar fixed-top navbar-light bg-white px-3">
+            <a class="navbar-brand text-primary ps-4" href="#"> My logo </a>
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                  <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about"> About </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact"> Contact </a>
+                </li>
+                
+              </ul>
+
         </nav>
-        <div class="container">
-          <div class="row ">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 p-5" id="portfolio">
+            <div class=" pt-5">
+                <span>
+                    <h1 class="h1">I'm tatou glad to see you</h1>
+                    <p class="info"> I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
+                </span>
+            </div>
             <div>
-              <img class="top-ground" style="  z-index: 1; height: 75vh; width: 90%;position: absolute;" src="image/Header bg@2x.png" alt="back" />
-              <div class="col-3 "></div>
-              <div class="col-8 mx-auto ">
-                <h1 class="pt-5">
-                  I’m Vivek Raj.<br />
-                  Glad to see you!
-                </h1>
-
-                <p >
-                  I’m a software developer! I can help you build a product ,
-                  feature or website Look through some of my work and
-                  experience! If you like what you see and have a project you
-                  need coded, don’t hesitate to contact me.
-                </p>
-              
-                <h4 class="connect text-primary">LET'S CONNECT</h4>
-              
-                <ul style="list-style-type: none; display: flex;">
-                  <li>
-                    <a href="https://twitter.com/BossVivekRaj">
-                      <img  src="image/twitter.jpg" alt="twitter-icon" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.linkedin.com/in/vivek-raj-a78b92256/">
-                      <img class="imag mx-3" src="image/Linkedin icon.jpg" alt="linkedin-icon" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://medium.com/">
-                      <img class="imag mx-3" src="image/medium.jpg" alt="medium-icon" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/VivekRaaZ">
-                      <img class="imag mx-3" src="image/github.jpg" alt="github-icon" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.angellist.com/">
-                      <img class="imag mx-3" src="image/angellist.jpg" alt="angellist-icon" />
-                    </a>
-                  </li>
+                <h5 class="text-primary">lets connect</h5>
+            </div>
+            <div class="socialMedia">
+                <ul class="nav gap-3">
+                <li><a href=""><img src="img/Vector.png" alt="" class="icon first-icon"></a></li>
+                <li><a href=""><img src="img/Vector (1).png" alt="" class="icon"></a></li>
+                <li><a href=""><img src="img/Vector (2).png" alt="" class="icon icon-3"></a></li>
+                <li><a href=""><img src="img/Vector (3).png" alt="" class="icon"></a></li>
+                <li><a href=""><img src="img/Vector (4).png" alt="" class="icon"></a></li>
                 </ul>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
-      <div class="container-fluid middle">
-        <div class="row m-5">
-          <div class="col-12 ">
-            <div class="row m-5" style="background-color: white !important;border-radius: .5rem;">
-              <div class="col-md-6">
-                <div class="card my-2" style="width: 100%">
-                  <img src="image/nature.jpg" class="card-img-top" alt="..." />
+
+<section class="my-cards" id="about">
+            <div class="row p-4 mt-5 m-4">
+                <div class="col-lg-6 col-12 card p-4">
+                  <img class="img-responsive project-img" src="img/Snapshoot1-desk.png" alt="image">
                 </div>
-              </div>
-              <div class="col-md-6">
-                <div class="card-body">
-                  <h2 class="card-title my-3">Tonic</h2>
-
-                  <div class="canopy " style="display: flex; gap: 10px;">
-                    <h6>CANOPY</h6>
-                    <img
-                      src="image/Counter.jpg"
-                      alt="conter"
-                      width="8px"
-                      height="8px"
-                    />
-                    <p class="back">Bank End Dev</p>
-                    <img
-                      src="image/Counter.jpg"
-                      alt="conter"
-                      width="8px"
-                      height="8px"
-                    />
-                    <p class="back">2015</p>
-                  </div>
-                  <p class="card-text">
-                    A daily selection of privately personalized reads; no
-                    accounts or sign-ups required.
-                  </p>
-                  <a href="#" class="btn btn-primary">See project</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-12 ">
-              <div class="row row1 m-5" style="background-color: white !important; border-radius: .5rem;">
-                <div class="col-md-6 pl-2">
-                  <div class="card-body">
-                    <h2 class="card-title my-3">Multi-Post Stories</h2>
-                    <div class="canopy my-1" style="display: flex; gap: 10px;">
-                      <h6>FACEBOOK</h6>
-                      <img
-                        src="image/Counter.jpg"
-
-                        alt="conter"
-                        width="8px"
-                        height="8px"
-                      />
-                      <p class="back">Full Stack Dev</p>
-                      <img
-                        src="image/Counter.jpg"
-                        alt="conter"
-                        width="8px"
-                        height="8px"
-                      />
-                      <p class="back">2015</p>
+                <div class="col-lg-6 col-12 tocin-part card p-4">
+                    <h2 class="headline-2"> TONIC </h2>
+                   <ul class="worke-expr nav gap-3 >
+                       <li class="exp-items exp-item1 text-body"> CANOPY  </li>
+                       <li class="exp-items exp-item2 text-secondary"> Back End Dev  </li>
+                       <li class="exp-items exp-item3 text-secondary"> 2015  </li>
+                   </ul>
+                   <p class="exp-info text-color pt-3 "> A daily selection of privately personalized reads; no accounts or sign-ups required.  A daily selection of privately personalized reads; no accounts or sign-ups required. </p>
+                   <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                    <div class="btn-group mr-2 gap-3" role="group" aria-label="First group">
+                   <div class="btn-toolbar " role="toolbar" aria-label="Toolbar with button groups">
+                    <button type="button" class="btn btn-sm techBtn bg-light text-primary">css </button>
                     </div>
-                    <p class="card-text">
-                      Experimental content creation feature that allows users to
-                      add to an existing story over the course of a day without
-                      spamming their friends.
-                    </p>
-                    <a href="#" class="btn btn-primary">See project</a>
-                  </div>
-                </div>
-
-                <div class="col-md-6">
-                  <div class="card my-2" style="width: 100%">
-                    <img
-                      src="image/muly-post.jpg"
-                      class="card-img-top"
-                      alt="..."
-                    />
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-12">
-                <div class="row row1 m-5" style="background-color: white !important; border-radius: .5rem;">
-                  <div class="col-md-6">
-                    <div class="card my-2" style="width: 100%">
-                      <img
-                        src="image/card.jpg"
-                        class="card-img-top"
-                        alt="..."
-                      />
+                    <div class="btn-group mr-2" role="group" aria-label="Second group">
+                      <button type="button" class="btn btn-sm techBtn bg-light text-primary">HTML</button>
+                    </div>
+                    <div class="btn-group" role="group" aria-label="Third group">
+                      <button type="button" class="btn btn-sm techBtn bg-light text-primary">JavaScript</button>
                     </div>
                   </div>
-                  <div class="col-md-6">
-                    <div class="card-body">
-                      <h2 class="card-title my-3">Facebook 360</h2>
+                </div>
+                <div class="p-0 pt-3">
+                    <a href="#" class="btn btn-lg "> <button type="button" class="btn btn-lg btn-primary"> See Project </button> </a>
+                </div>
+              </div>
+              </div>
+              
 
-                      <div class="canopy my-1 text-center" style="display: flex; gap: 10px;" >
-                        <h6>FACEBOOK</h6>
-                        <img
-                          src="image/Counter.jpg"
-                          alt="conter"
-                          width="8px"
-                          height="8px"
-                        />
-                        <p class="back">Full Stack Dev</p>
-                        <img
-                          src="image/Counter.jpg"
-                          alt="conter"
-                          width="8px"
-                          height="8px"
-                        />
-                        <p class="back">2015</p>
+                 <div class="row p-4 mt-4 m-4">
+                  <div class="col-lg-6 col-12 tocin-part card p-4">
+                      <h2 class="headline-2"> TONIC </h2>
+                     <ul class="worke-expr nav gap-3 >
+                         <li class="exp-items exp-item1 text-body"> CANOPY  </li>
+                         <li class="exp-items exp-item2 text-secondary"> Back End Dev  </li>
+                         <li class="exp-items exp-item3 text-secondary"> 2015  </li>
+                     </ul>
+                     <p class="exp-info text-color pt-3 "> A daily selection of privately personalized reads; no accounts or sign-ups required.  A daily selection of privately personalized reads; no accounts or sign-ups required. </p>
+                     <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                      <div class="btn-group mr-2 gap-3" role="group" aria-label="First group">
+                     <div class="btn-toolbar " role="toolbar" aria-label="Toolbar with button groups">
+                      <button type="button" class="btn btn-sm techBtn bg-light text-primary">css </button>
                       </div>
-                      <p class="card-text">
-                        Exploring the future of media in Facebook's first
-                        Virtual Reality app; a place to discover and enjoy 360
-                        photos and videos on Gear VR.
-                      </p>
-                      <a href="#" class="btn btn-primary">See project</a>
+                      <div class="btn-group mr-2" role="group" aria-label="Second group">
+                        <button type="button" class="btn btn-sm techBtn bg-light text-primary">HTML</button>
+                      </div>
+                      <div class="btn-group" role="group" aria-label="Third group">
+                        <button type="button" class="btn btn-sm techBtn bg-light text-primary">JavaScript</button>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="col-12">
-                  <div class="row row1 m-5 " style="background-color: white !important; border-radius: .5rem;">
-                    <div class="col-md-6">
-                      <div class="card-body">
-                        <h2 class="card-title my-3">Uber Navigation</h2>
-                        <div class="canopy my-1" style="display: flex; gap: 10px;">
-                          <h6>Uber</h6>
-                          <img
-                            src="image/Counter.jpg"
-                            alt="conter"
-                            width="8px"
-                            height="8px"
-                          />
-                          <p class="back">Lead Developer</p>
-                          <img
-                            src="image/Counter.jpg"
-                            alt="conter"
-                            width="8px"
-                            height="8px"
-                          />
-                          <p class="back">2018</p>
+                  <div class="p-0 pt-3">
+                      <a href="#" class="btn btn-lg "> <button type="button" class="btn btn-lg btn-primary"> See Project </button> </a> 
+  
+                  </div>
+                
+              </div>
+              <div class="col-lg-6 col-12 card p-4">
+                <img class="img-responsive project-img" src="img/Snapshoot-desk2.png" alt="image">
+              </div>
+              </div>
+<!--            ---------------------- card 3-------------------- -->
+                     <div class="row p-4 mt-5 m-4">
+                    <div class="col-lg-6 col-12 card p-4">
+                      <img class="img-responsive project-img" src="img/Snapshoot-desk3.png" alt="image">
+                    </div>
+                    <div class="col-lg-6 col-12 tocin-part card p-4">
+                        <h2 class="headline-2"> TONIC </h2>
+                       <ul class="worke-expr nav gap-3 >
+                           <li class="exp-items exp-item1 text-body"> CANOPY  </li>
+                           <li class="exp-items exp-item2 text-secondary"> Back End Dev  </li>
+                           <li class="exp-items exp-item3 text-secondary"> 2015  </li>
+                       </ul>
+                       <p class="exp-info text-color pt-3 "> A daily selection of privately personalized reads; no accounts or sign-ups required.  A daily selection of privately personalized reads; no accounts or sign-ups required. </p>
+                       <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                        <div class="btn-group mr-2 gap-3" role="group" aria-label="First group">
+                       <div class="btn-toolbar " role="toolbar" aria-label="Toolbar with button groups">
+                        <button type="button" class="btn btn-sm techBtn bg-light text-primary">css </button>
                         </div>
-                        <p class="card-text">
-                          A smart assistant to make driving more safe,
-                          efficient, and fun by unlocking your most expensive
-                          computer: your car.
-                        </p>
-                        <a href="#" class="btn btn-primary">See project</a>
+                        <div class="btn-group mr-2" role="group" aria-label="Second group">
+                          <button type="button" class="btn btn-sm techBtn bg-light text-primary">HTML</button>
+                        </div>
+                        <div class="btn-group" role="group" aria-label="Third group">
+                          <button type="button" class="btn btn-sm techBtn bg-light text-primary">JavaScript</button>
+                        </div>
                       </div>
                     </div>
-
-                    <div class="col-md-6">
-                      <div class="card my-2" style="width: 100%">
-                        <img
-                          src="image/Snapshoot Portfolio.jpg"
-                          class="card-img-top"
-                          alt="..."
-                        />
-                      </div>
+                    <div class="p-0 pt-3">
+                        <a href="#" class="btn btn-lg "> <button type="button" class="btn btn-lg btn-primary"> See Project </button> </a>
                     </div>
                   </div>
+                  </div>
+
+                    <div class="row p-4 mt-4 m-4">
+                    <div class="col-lg-6 col-12 tocin-part card p-4">
+                        <h2 class="headline-2"> TONIC </h2>
+                       <ul class="worke-expr nav gap-3 >
+                           <li class="exp-items exp-item1 text-body"> CANOPY  </li>
+                           <li class="exp-items exp-item2 text-secondary"> Back End Dev  </li>
+                           <li class="exp-items exp-item3 text-secondary"> 2015  </li>
+                       </ul>
+                       <p class="exp-info text-color pt-3 "> A daily selection of privately personalized reads; no accounts or sign-ups required.  A daily selection of privately personalized reads; no accounts or sign-ups required. </p>
+                       <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                        <div class="btn-group mr-2 gap-3" role="group" aria-label="First group">
+                       <div class="btn-toolbar " role="toolbar" aria-label="Toolbar with button groups">
+                        <button type="button" class="btn btn-sm techBtn bg-light text-primary">css </button>
+                        </div>
+                        <div class="btn-group mr-2" role="group" aria-label="Second group">
+                          <button type="button" class="btn btn-sm techBtn bg-light text-primary">HTML</button>
+                        </div>
+                        <div class="btn-group" role="group" aria-label="Third group">
+                          <button type="button" class="btn btn-sm techBtn bg-light text-primary">JavaScript</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="p-0 pt-3">
+                        <a href="#" class="btn btn-lg "> <button type="button" class="btn btn-lg btn-primary"> See Project </button> </a> 
+    
+                    </div>
+                  
                 </div>
-              </div>
+                <div class="col-lg-6 col-12 card p-4">
+                  <img class="img-responsive project-img" src="img/Snapshoot-desk4.png" alt="image">
+                </div>
+                  
+        </section>
+<section class="about">
+            <div class="row">
+               <div class="col-lg-6">
+                 <div class="about-part">
+                   <h2 class="headline-2 about-header"> About Myself </h2>
+                   <p class="about-text text-color"> Hello I’m a software developer! I can help you build a product , feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
+                   <div class="contact-part">
+                       <h2 class="lets-connect"> LET'S CONNECT </h2>
+                       <ul class="social-part nav gap-3">
+                           <li class="social-item transforScale"><a class="menu-link" href="#contact"> <img src="img/Vector.png" alt="twitter" class="social-icon"> </a></li>
+                           <li class="social-item transforScale"><a class="menu-link" href="#contact"> <img src="img/Vector (1).png" alt="linkedIn" class="social-icon"> </a></li>
+                           <li class="social-item transforScale"><a class="menu-link" href="#contact"> <img src="img/Vector (2).png" alt="m" class="social-icon"> </a></li>
+                           <li class="social-item transforScale"><a class="menu-link" href="#contact"> <img src="img/Vector (3).png" alt="git hub" class="social-icon"> </a></li>
+                           <li class="social-item transforScale"><a class="menu-link" href="#contact"> <img src="img/Vector (4).png" alt="two" class="social-icon"> </a></li>
+                       </ul>
+                   </div>
+                   <div class="pt-3">
+                    <a href="#"> <button type="button" class="btn btn-lg btn-primary "> Get my resume </button> </a>
+                   </div>
+               </div>
+               </div>
+               <div class="col-lg-4">
+                 <div class="about-part">
+                   <ul class="accordion list-unstyled">
+                       <li class="accordion-title nav justify-content-between">
+                               <p class="skills"> Languages  </p>
+                               <img class="acc-icon  " src="img/Down.png" alt="arrow-down">
+                       </li>
+                       <li>
+                           <ul class="acc-sub-ul nav gap-2">
+                               <li class="acc-sub-items">
+                                   <img class="lan-icon" src="img/Ellipse1.png" alt="html">
+                                   <span class="lang">JavaScript </span>
+                               </li>
+                               <li class="acc-sub-items">
+                                   <img class="lan-icon" src="img/Ellipse2.png" alt="html">
+                                   <span class="lang"> HTML </span>
+                               </li>
+                               <li class="acc-sub-items">
+                                   <img class="lan-icon" src="img/Ellipse3.png" alt="html">
+                                   <span class="lang"> CSS  </span>
+                               </li>
+                           </ul>
+                       </li>
+                       <li class="accordion-items nav justify-content-between pt-4">
+                           <p class="skills"> Frameworks </p>
+                           <img class="acc-icon-right float-right" src="img/Right.png" alt="arrow-down">
+                       </li>
+                       <hr>
+                       <li class="accordion-items nav justify-content-between">
+                           <p class="skills"> Skills </p>
+                           <img class="acc-icon-right" src="img/Right.png" alt="arrow-down">
+                       </li>
+                       <hr>
+                   </ul>
+                </div>
+               </div>
             </div>
-          </div>
-        </div>
-      </div>
-      <!-- ------------------------------ -->
-      <div class="text-cente p-5" style="background-color: white; border-radius: 100 0 0 0;">
-        <div class="row row-cols-1 row2 my-5 p-5">
-          <div class="col-6 p-5">
-            <h1 >About Myself</h1>
-            <p>
-              Hello I’m a software developer! I can help you build a product ,
-              feature or website Look through some of my work and experience! If
-              you like what you see and have a project you need coded, don’t
-              hesitate to contact me.
-            </p>
-            <h4 class="connect text-primary">LET'S CONNECT</h4>
-            <div>
-              <ul style="list-style-type: none; display: flex;">
-                <li>
-                  <a href="https://twitter.com/BossVivekRaj">
-                    <img class="imag mx-3" src="image/twitter.jpg" alt="twitter-icon" />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.linkedin.com/in/vivek-raj-a78b92256/">
-                    <img class="imag mx-3" src="image/Linkedin icon.jpg" alt="linkedin-icon" />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://medium.com/">
-                    <img class="imag mx-3" src="image/medium.jpg" alt="medium-icon" />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://github.com/VivekRaaZ">
-                    <img class="imag mx-3" src="image/github.jpg" alt="github-icon" />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.angellist.com/">
-                    <img class="imag mx-3" src="image/angellist.jpg" alt="angellist-icon" />
-                  </a>
-                </li>
-              </ul>
-              <a href="#" class="btn btn-primary">Get my resume</a>
-            </div>
-          </div>
+         </section>
 
-          <div class="col-6 py-5">
-            <div class="about-part">
-              <ul class="accordion list-unstyled">
-                <li class="accordion-title nav justify-content-between">
-                  <p class="skills">Languages</p>
-                  <img class="acc-icon" src="image/Icon - Chevron - Down - Larger.jpg" alt="arrow-down" />
-                </li>
-                <li>
-                  <ul class="acc-sub-ul nav gap-2">
-                    <li class="acc-sub-items">
-                      <img class="lan-icon" src="image/JavaScrip.jpg" alt="html" />
-                      <span class="lang">JavaScript </span>
-                    </li>
-                    <li class="acc-sub-items">
-                      <img class="lan-icon" src="image/HTML.jpg" alt="html" />
-                      <span class="lang"> HTML </span>
-                    </li>
-                    <li class="acc-sub-items">
-                      <img class="lan-icon" src="image/CSS.jpg" alt="html" />
-                      <span class="lang"> CSS </span>
-                    </li>
-                  </ul>
-                </li>
-                <li class="accordion-items nav justify-content-between pt-4">
-                  <p class="skills">Frameworks</p>
-                  <img
-                    class="acc-icon-right float-right"
-                    src="image/r-arrow.png"
-                    alt="arrow-down"
-                  />
-                </li>
-                <hr />
-                <li class="accordion-items nav justify-content-between">
-                  <p class="skills">Skills</p>
-                  <img
-                    class="acc-icon-right"
-                    src="image/r-arrow.png"
-                    alt="arrow-down"
-                  />
-                </li>
-                <hr />
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
+         <section class="footer " id="contact">
+            <div class="row">
+              <div class="col-lg-3"></div>
+            <div class="col-lg-6">
+               <h2 class="about-me-headline"> Contact me </h2>
+               <p class="contact-text"> If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
+                I’d love to help with it!</p>
 
-      <!-- -------------- -->
+                <form action="https://formspree.io/f/xpzenazb" method="post">
+                   <div class="mb-3">
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Full name">
+                  </div>
+                   <div class="mb-3">
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                  </div>
+                  <div class="mb-3">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                   <button type="button" class="btn btn-lg btn-primary"> Get in touch </button> 
+                </form>
+            </div>
+            <div class="col-lg-3"></div>
+            </div>
+        </section>
 
-      <footer>
-        <div class="background" style="background-color: #6070ff; border-radius: 70px 0 0 0; height: 35rem;">
-          <img
-          style="  z-index: 1; height: 75vh; width: 100%;position: absolute;"
-            src="image/contact.png"
-            alt="contact"
-            width="100%"
-          />
-          <div class="mb-3">
-            <div class="row text-center">
-                <!-- ----------------------------------- -->
-              <div class="col-12 text-white pt-5">
-                <h2>Contact me</h2>
-              </div>
-              <div class="col-3"></div>
-              <div class="col-6 text-white">
-                <p>
-                  If you have an application you are interested in developing, a
-                  feature that you need built or a project that needs coding.
-                  I’d love to help with it!
-                </p>
-                <form
-                class="form1"
-                action="https://formspree.io/f/xaygnodk"
-                method="post"
-              >
-              <label for="exampleFormControlInput1" class="form-label1"></label>
-              <input
-                type="text"
-                class="form-control"
-                id="exampleFormControlInput1"
-                placeholder="Enter Your Name"
-              />
-            
-            <div class="mb-3">
-              <label for="exampleFormControlInput1" class="form-label"></label>
-              <input
-                type="email"
-                class="form-control"
-                id="exampleFormControlInput2"
-                placeholder="Enteryouremail@abc.xyz"
-              />
-            </div>
-            <div class="mb-3">
-              <label
-                for="exampleFormControlTextarea1"
-                class="form-label"
-              ></label>
-              <textarea
-                class="form-control"
-                id="exampleFormControlTextarea1"
-                placeholder="Write your message"
-                rows="3"
-              ></textarea>
-            </div>
-            <a href="#" class="btn btn-primary">Get in touch</a>
-            </form>
-          </div>
-        </div>
+
     </div>
     </div>
-      </footer>
 
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
- 
-    </div>
-  </body>
+   
+    
+</body>
 </html>
